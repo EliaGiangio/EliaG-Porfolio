@@ -29,6 +29,10 @@ body {
     box-shadow: 0 0 10px rgb(255, 254, 254, 0.4);
 }
 
+.madonna a {
+    cursor: pointer
+}
+
 
 
 .navbar {
