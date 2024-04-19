@@ -17,9 +17,9 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects/:projectId" element={<ProjectDetail />} />
+        <Route exact path="/EliaG-Portfolio/" element={<Home />} />
+        <Route path="/EliaG-Portfolio/about" element={<About />} />
+        <Route path="/EliaG-Portfolio/projects/:projectId" element={<ProjectDetail />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>

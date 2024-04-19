@@ -61,7 +61,7 @@ export default function Example() {
             </div>
             <div className="mt-5 flex lg:ml-4 lg:mt-0">
                 <span className="hidden sm:block">
-                    <a href="/about">
+                    <a href="/EliaG-Portfolio/about">
                         <button
                             type="button"
                             className="inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
@@ -72,7 +72,7 @@ export default function Example() {
                 </span>
 
                 <span className="ml-3 hidden sm:block">
-                    <a href="/">
+                    <a href="/EliaG-Portfolio/">
                         <button
                             type="button"
                             className="inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
