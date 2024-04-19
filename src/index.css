@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: radial-gradient(80% 40%, #FF6B6B, #FFFFFF);
+}
+
+.project-card {
+    text-decoration: none;
+    color: black;
+}
+
+.triplice-fischio {
+    max-height: 100vh;
+    scale: 0.5;
+    flex: 8;
+    transform-origin: top;
+}
+
+.madonna {
+    margin: 1%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.madonna:hover {
+    transform: scale(1.35);
+    z-index: 1;
+    box-shadow: 0 0 10px rgb(255, 254, 254, 0.4);
+}
+
+
+
+.navbar {
+    padding: 1%;
+}
+
+.navbar h2 {
+    color: #333333;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.navbar button {
+    background-color: #ffffff;
+    color: #1e273b;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+    display: inline-block;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.navbar button:hover {
+    background-color: #1e273b;
+    color: #ffffff;
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.621);
+}
+
+.lang-box {
+    width: 266px;
+    background-color: #3333338d;
+    color: #ffffff;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.icon-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    margin-top: 2px;
+}
+
+.project-title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.project-details-div {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4%;
+    border-radius: 0.5%;
+    border: solid 1px #7775D6;
+    width: 95%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 2%;
+}
+
+.project-details-div p {
+    text-shadow: 2px 2px 4px rgba(131, 131, 131, 0.2);
+}
+
+.stack-proj-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.stack-proj-details h2 {
+    padding-right: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.311);
+}
+
+.button-features {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-features button {
+    color: black;
+    text-shadow: 2px 2px 4px rgba(131, 131, 131, 0.4);
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.button-features p {
+    color: black;
+    text-shadow: 2px 2px 4px rgba(131, 131, 131, 0.4);
+    font-size: medium;
+}
+
+.cv-card-div {
+    flex-grow: 6;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2%;
+    width: 90%;
+    border-radius: 0.5%;
+    border: solid 1px #333333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 2%;
+    text-shadow: 2px 2px 4px rgba(131, 131, 131, 0.4);
+}
+
+.education-card-div {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5%;
+    border-radius: 0.5%;
+    border: solid 1px #333333;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 2%;
+    text-shadow: 2px 2px 4px rgba(131, 131, 131, 0.4);
+}
+
+.passione {
+    display: flex;
+
+}
+
+.passione h1 {
+    color: #333333;
+    text-align: center;
+    font-weight: 800;
+    font-size: x-large;
+    padding: 5px;
+}
+
+.stronzo {
+    width: 100%;
+}
+
+.puzza {
+    width: 60%;
+}
