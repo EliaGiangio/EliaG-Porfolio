@@ -40,7 +40,7 @@ const projects = [
         url: 'https://eliagiangio.github.io/recipe-book/',
         github: "https://github.com/EliaGiangio/recipe-book",
         images: ['https://res.cloudinary.com/dggfjc8rb/image/upload/v1713107264/Portfolio%20imgs%20and%20gifs/Screenshot_2024-04-14_at_17.06.48_yoosfl.png', 'https://res.cloudinary.com/dggfjc8rb/image/upload/v1713107270/Portfolio%20imgs%20and%20gifs/Screenshot_2024-04-14_at_17.07.07_ndkakt.png'],
-        stack: ['React'],
+        stack: ['Typescript', 'React'],
         description: "A single-page application that dynamically displays a curated list of my preferred recipes, adjusting them based on the ingredients I currently have on hand.",
         goal: "Putting into practice what I've learned about React, I'm building an app that implements its main features. This hands-on experience allows me to solidify my understanding of React's component-based approach and state management, preparing me for more complex projects in the future.",
         features: [

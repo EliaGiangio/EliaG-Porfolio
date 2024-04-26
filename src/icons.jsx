@@ -12,7 +12,9 @@ function LilIcons({ icon }) {
     } else if (icon.toLowerCase() === 'firebase') {
         return (<img width="48" height="48" src="https://res.cloudinary.com/dggfjc8rb/image/upload/v1712936898/Firebase_nt67hr.png" alt="Firebase" />)
     } else if (icon.toLowerCase() === 'express') {
-        return (<img width="90" height="90" src="https://res.cloudinary.com/dggfjc8rb/image/upload/v1712937408/Expressjs_ueuw7z.svg" alt="Express" style={{ backgroundColor: 'white' }} />)
+        return (<img width="90" height="90" src="https://res.cloudinary.com/dggfjc8rb/image/upload/v1712937408/Expressjs_ueuw7z.svg" alt="express" style={{ backgroundColor: 'white' }} />)
+    } else if (icon.toLowerCase() === 'typescript') {
+        return (<img width="60" height="60" src="https://res.cloudinary.com/dggfjc8rb/image/upload/v1714128264/icons8-typescript-96_ezyw87.png" alt="typescript" />)
     } else { return '' }
 }
 
