@@ -37,8 +37,8 @@ const projects = [
     {
         id: 3,
         title: "Elia's Kitchen",
-        url: 'https://github.com/EliaGiangio/ts-recipe-book',
-        github: "https://eliagiangio.github.io/ts-recipe-book/",
+        url: 'https://eliagiangio.github.io/ts-recipe-book/',
+        github: "https://github.com/EliaGiangio/ts-recipe-book",
         images: ['https://res.cloudinary.com/dggfjc8rb/image/upload/v1713107264/Portfolio%20imgs%20and%20gifs/Screenshot_2024-04-14_at_17.06.48_yoosfl.png', 'https://res.cloudinary.com/dggfjc8rb/image/upload/v1713107270/Portfolio%20imgs%20and%20gifs/Screenshot_2024-04-14_at_17.07.07_ndkakt.png'],
         stack: ['Typescript', 'React'],
         description: "A single-page application that dynamically displays a curated list of my preferred recipes, adjusting them based on the ingredients I currently have on hand.",
